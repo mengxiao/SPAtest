@@ -1162,7 +1162,7 @@ SPAmeta<-function(pvalue.Z=NULL,MAF.Z=NULL,CCsize.Z=NULL,
 		g_GC<-NULL
 		NAset<-NULL
 	}
-	if(!is.null(spldata))
+	if(!is.null(spldata) && !is.list(spldata))
 	{
 		if(is.vector(spldata))		spldata<-as.matrix(t(spldata))
 		if(is.matrix(spldata))
