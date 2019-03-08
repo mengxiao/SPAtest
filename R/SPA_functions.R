@@ -1178,7 +1178,7 @@ SPAmeta<-function(pvalue.Z=NULL,MAF.Z=NULL,CCsize.Z=NULL,
 		}
 	}
 
-	return(Hybrid_meta(q_Normal,Var_Normal,q_GC,mu_GC,g_GC,NAset,spldata,Cutoff.meta)$p.value)
+	return(Hybrid_meta(q_Normal,Var_Normal,q_GC,mu_GC,g_GC,NAset,spldata,Cutoff.meta))
 }
 
 
